@@ -1,0 +1,42 @@
+#include <iostream>
+
+using namespace std; 
+
+int main(){
+    int array[4];
+    int varu = 0;
+    cout<<"Ingrese los valores del arreglo: "; cin>>varu;
+
+    for( int i = 0; i < 4; i++){
+        array[i] = varu++;
+    };
+
+    for( int i = 0; i < 4; i++){
+        cout<<array[i]<<endl;
+    };
+
+}
+
+
+
+// }  
+
+
+
+
+
+// int sumar(const int array[], const int tam) { 
+//     long sum = 0;
+//     for(int i = 0; i < tam; sum += array[i++]); 
+//     return sum;
+// }
+
+// int main() {
+//     int arr[] = {1, 2, 3, 4, 5, 6, 7};
+//     cout << "Suma de elementos: " << sumar(arr, 7) << endl; 
+//     return 0;
+// }
+
+
+
+
